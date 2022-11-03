@@ -1,3 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
 body {
-  background-color: aqua;
+  /* background-color: aqua; */
+  height: 100vh;
+  /* background-image: url('images/designs/desktop-design.jpg'); */
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+.previewBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  /* left: 45px; */
+  transform: translateY(-50%);
+  margin: 0 auto;
+  padding: 1rem;
+  width: 25.6vw;
+  height: 90vh;
+  min-width: 350px;
+  min-height: 550px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1rem;
+}
+
+.previewBox img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.previewBox h2 {
+  width: 100%;
+  font-weight: 600;
+  text-align: left;
+  color: white;
+}
+
+.previewBox p {
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+}
+
+.previewBox .costTime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.previewBox .costTime p:first-child {
+  color: hsl(178, 100%, 50%);
+}
+
+.previewBox .costTime p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.previewBox .costTime img {
+  width: auto;
+}
+
+.previewBox .lineSeparator {
+  width: 100%;
+  background-color: hsl(215, 51%, 70%);
+  vertical-align: middle;
+  border-bottom: 1px solid hsl(215, 51%, 70%);
+  border-radius: 50%;
+}
+
+.creator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.creator img {
+  order: 1;
+  flex: 0 1 1.5rem;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.creator p {
+  flex: 0 0 auto;
+  order: 2;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.creator p span {
+  color: white;
 }
