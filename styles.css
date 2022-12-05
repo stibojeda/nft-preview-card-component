@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 18px;
+  /* font-size: 1.32vw; */
 }
 
 body {
@@ -38,9 +39,37 @@ body {
   border-radius: 0.5rem;
 }
 
+
+.previewBox .iconViewBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 0;
+  width: 90%;
+  height: 54.5%;
+  min-width: 314px;
+  min-height: 314px;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 255, 247, 0.5);
+  opacity: 0;
+}
+
+.previewBox .iconViewBox img {
+  width: 15%;
+  height: 15%;
+}
+
+.previewBox .iconViewBox:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+
 .previewBox h2 {
   width: 100%;
   font-weight: 600;
+  font-size: 20px;
   text-align: left;
   color: white;
 }
@@ -103,4 +132,11 @@ body {
 
 .creator p span {
   color: white;
+}
+
+.creator p span:hover,
+.previewBox h2:hover
+{
+  cursor: pointer;
+  color:hsl(178, 100%, 50%);
 }
