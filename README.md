@@ -45,3 +45,4 @@ I learned a lot about the responsive design in CSS with flexbox. Also, this was 
 ## About me
 - Portfolio: [Stiven Ojeda](https://stibojeda.github.io)
 - Linkedin: [Stiven Ojeda](https://www.linkedin.com/in/stiven-ojeda-090a3924a)
+- GitHub: [Stiven Ojeda](https://github.com/stibojeda)
